@@ -1,0 +1,63 @@
+header{
+    font-size: 60px;
+    text-decoration: underline;
+    text-align: center;
+    margin: 50px;
+    font-family: "Brush Script MT", cursive;
+}
+
+body {
+    background-color: rgb(116, 169, 255);
+}
+
+h1{
+    font-family: arial;
+    font-size: 18px;
+    color: rgb(69, 67, 67);
+
+}
+
+p{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(196, 193, 193);
+line-height: 0%;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    padding-top: 1%;
+   
+}
+
+main.caja-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+    }   
+   
+
+ul.contactos{
+    width: 400px;
+    height: 450px;
+    border-radius: 3px;
+    background-color: rgb(247, 231, 231);
+    box-shadow: 0px 0px 10px 10px rgba(244, 244, 244, 0.5);
+      }
+      
+
+li.contacto{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+li.contacto>section.nomydire {
+    margin-left: 20px;
+}
